@@ -1,5 +1,6 @@
 import "./App.css";
 import ButtonAppBar from "./components/Header";
+import Home from "./components/Home";
 import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
 
@@ -8,7 +9,7 @@ function App() {
     typography: {
       regularwords: {
         color: "#9DA2AB",
-        fontFamily: ["NTR"].join(","),
+        fontFamily: ["Quicksand"].join(","),
       },
       headerwords: {
         color: "#9DA2AB",
@@ -16,12 +17,16 @@ function App() {
         "&:hover": {
           color: "#78FFD6", // Altere para a cor desejada no hover
         },
-        fontFamily: ["NTR"].join(","),
+        fontFamily: ["Quicksand"].join(","),
+      }, 
+      highlighted: {
+        color: "#78FFD6",
+        fontFamily: ["Quicksand"].join(","),
       },
     },
     palette: {
       primary: {
-        main: "#2D3250",
+        main: "#0a192f",
       },
       secondary: {
         main: "#9DA2AB",
@@ -36,6 +41,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <ButtonAppBar></ButtonAppBar>
+        <div id="Content">
+           <Home></Home>
+        </div>
+       
       </div>
     </ThemeProvider>
   );

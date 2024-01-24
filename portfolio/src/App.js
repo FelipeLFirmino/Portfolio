@@ -1,6 +1,7 @@
 import "./App.css";
 import ButtonAppBar from "./components/Header";
 import Home from "./components/Home";
+import About from "./components/About";
 import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
 
@@ -23,6 +24,16 @@ function App() {
         color: "#78FFD6",
         fontFamily: ["Quicksand"].join(","),
       },
+    }, 
+     breakpoints: {
+      values: {
+        xxs:320,
+        xs: 375,
+        sm: 600,
+        md: 900,
+        lg: 1200,
+        xl: 1536,
+      },
     },
     palette: {
       primary: {
@@ -39,10 +50,12 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <ButtonAppBar></ButtonAppBar>
       <div className="App">
-        <ButtonAppBar></ButtonAppBar>
+       
         <div id="Content">
            <Home></Home>
+           <About></About>
         </div>
        
       </div>

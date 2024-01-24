@@ -16,9 +16,11 @@ export default function ButtonAppBar() {
           {/* menu */}
           <Grid container alignItems={"center"} spacing={3} paddingLeft={4} sx={{
             display:{
+              xxs:"none",
               xs:"none",
               sm:"flex",
               md:"flex"
+              
             }
           }}>
             <Grid item>

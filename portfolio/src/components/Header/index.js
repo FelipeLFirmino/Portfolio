@@ -11,7 +11,7 @@ import MailIcon from "@mui/icons-material/Mail";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="fixed" >
         <Toolbar>
           {/* menu */}
           <Grid container alignItems={"center"} spacing={3} paddingLeft={4} sx={{

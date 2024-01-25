@@ -1,17 +1,17 @@
 import * as React from "react";
+import Lottie from "lottie-react";
+import animation from"../../assets/laptop.json";
 import Box from "@mui/material/Box";
-import Avatar from "@mui/material/Avatar";
 import { Container, Grid, Typography } from "@mui/material";
 import Grow from "@mui/material/Grow";
 import Button from "@mui/material/Button";
-import Myimage from "../../images/fotoavatar.jpg";
 import MailIcon from "@mui/icons-material/Mail";
 
 import "./index.css";
 
 export default function Home() {
   return (
-    <Box sx={{ flexGrow: 1, paddingTop: 5, bgcolor: "#0a192f" }}>
+    <Box sx={{ flexGrow: 1, paddingTop: 8, bgcolor: "#0a192f" }}>
       <Grid
         container={"true"}
         direction="column"
@@ -20,13 +20,12 @@ export default function Home() {
         alignItems="center"
       >
         <Grid item>
-          <Grow in timeout={1000}>
-            <Avatar
-              src={Myimage}
-              alt="my image"
-              sx={{ width: {xxs:"15rem", xs: "17rem", sm: "20rem", md: "20rem",xl:"40rem" }, height: { xxs:"15rem",xs: "17rem", sm: "20rem", md: "20rem",xl:"40rem" } }}
-            ></Avatar>
-          </Grow>
+         <Grow in timeout={3500}>
+           <Container>
+             <Lottie animationData={animation} style={{maxWidth:"30rem"}}></Lottie>
+           </Container>
+         </Grow>
+         
         </Grid>
         <Grid item>
           <Grid

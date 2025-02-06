@@ -54,7 +54,7 @@ export default function About() {
                 },
               }}
             >
-              Com 21 anos, Meu domínio se estende por diversas linguagens,
+              Com 22 anos, Meu domínio se estende por diversas linguagens,
               incluindo <Typography variant="highlighted">HTML, CSS, JavaScript, TypeScript, React, Angular, Golang e SQL. </Typography>
               Atualmente em busca de uma oportunidade que me permita expandir e
               consolidar meus conhecimentos, trago também a certificação de 

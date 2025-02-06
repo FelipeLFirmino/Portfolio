@@ -50,15 +50,15 @@ export default function About() {
                   xs: "0.9rem",
                   sm: "1rem",
                   md: "1rem",
-                  xl: "3.5rem",
+                  xl: "2.2rem",
                 },
               }}
             >
               Com 21 anos, Meu domínio se estende por diversas linguagens,
-              incluindo <Typography variant="highlighted">HTML, CSS, JavaScript, TypeScript, React, Java e SQL. </Typography>
+              incluindo <Typography variant="highlighted">HTML, CSS, JavaScript, TypeScript, React, Angular, Golang e SQL. </Typography>
               Atualmente em busca de uma oportunidade que me permita expandir e
               consolidar meus conhecimentos, trago também a certificação de 
-              <Typography variant="highlighted"> fluência em inglês</Typography>, reforçando minha capacidade de comunicação em
+              <Typography variant="highlighted"> fluência em inglês avançada, Nivel C1</Typography>, reforçando minha capacidade de comunicação em
               ambientes profissionais diversificados.
             </Typography>
           </Grow>

@@ -24,22 +24,22 @@ export default function ButtonAppBar() {
             }
           }}>
             <Grid item>
-              <Typography variant="regularwords" component="h4">
+              <Typography variant="regularwords" component="h3">
                 Felipe Firmino
               </Typography>
             </Grid>
             <Grid item>
-              <Typography variant="headerwords" component="h6">
+              <Typography variant="headerwords" component="h5">
                 Home
               </Typography>
             </Grid>
             <Grid item>
-              <Typography variant="headerwords" component="h6">
+              <Typography variant="headerwords" component="h5">
                 sobre mim
               </Typography>
             </Grid>
             <Grid item>
-              <Typography variant="headerwords" component="h6">
+              <Typography variant="headerwords" component="h5">
                 projetos
               </Typography>
             </Grid>

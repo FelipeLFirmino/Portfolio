@@ -44,7 +44,7 @@ export default function Home() {
                   textAlign={"center"}
                   margin={"6px"}
                  
-                  sx={{ fontSize: {xxs:"0.8rem", xs: "1rem", sm: "1.5rem", md: "2rem",xl:"4rem" } }}
+                  sx={{ fontSize: {xxs:"0.8rem", xs: "1rem", sm: "1.5rem", md: "2rem",xl:"2.5rem" } }}
                 >
                   Olá, meu nome é
                   <Typography variant={"highlighted"} component={"span"}>
@@ -63,7 +63,7 @@ export default function Home() {
                     component={"h4"}
                     paragraph
                     textAlign={"center"}
-                    sx={{ fontSize: {xxs:"0.8rem", xs: "0.9rem", sm: "1rem", md: "1rem",xl:"3.5rem" } }}
+                    sx={{ fontSize: {xxs:"0.8rem", xs: "0.9rem", sm: "1rem", md: "1rem",xl:"2.0rem" } }}
                   >
                     Bem-vindo ao meu portfolio! Aqui, compartilho minha jornada
                     e paixão por tecnologia. Estou animado para enfrentar novos
@@ -91,7 +91,7 @@ export default function Home() {
                 spacing={1}
               >
                 <Grid item>
-                  <Typography variant="highlighted" component={"h4"}>
+                  <Typography variant="highlighted" component={"h2"}>
                     fale comigo
                   </Typography>
                 </Grid>
